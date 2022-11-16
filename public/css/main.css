@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+  margin: 0 0 5%;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 18px;
+  margin-right: 10px;
+  /* margin-bottom: 1rem; */
+}
+
+a:hover{
+  text-decoration: none;
+  color: grey;
+}
+
+.pic {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  /* background-color: red; */
+  padding-top: 10%;
+}
+
+.name {
+  color: white;
+  padding: 10%;
+  /* background-color: green; */
+}
+
+@media (min-width: 950px) {
+  .image {
+    float: left;
+    width: 40%;
+    padding-top: 100px;
+  }
+
+  .name {
+    float: left;
+    width: 60%;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 12%;
+  }
+}
